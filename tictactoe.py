@@ -32,7 +32,7 @@ while inGame:
 				if xTurn:
 					matrix[int(coordinates[0]) - 1][int(coordinates[1]) - 1] = "X"
 				else:
-					matrix[int(coordinates[0]) - 1][int(coordinates[1]) - 1] = "X"
+					matrix[int(coordinates[0]) - 1][int(coordinates[1]) - 1] = "O"
 				xTurn = not xTurn
 					
 				
